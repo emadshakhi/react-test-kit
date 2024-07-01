@@ -6,7 +6,7 @@ import React, { useEffect, useRef } from "react";
 
 export {};
 function App() {
-  const [state, setState] = React.useState(false);
+  const [state, setState] = React.useState(true);
 
   const buttonRef = useRef(null);
 
